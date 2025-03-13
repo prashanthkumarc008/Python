@@ -3,6 +3,10 @@ numbers=(10,30,45,67,980)
 eids={101,102,103,101}
 ename="Rahul"
 
-print("Rahul" in enames)  # True
-print("x" in ename)       # False
-print(101 in eids)        #True
+print("Rahul" in enames)        # True
+print("x" in ename)             # False
+print("x" not in ename)         
+print("x" in ename)
+print(101 in eids)              #True
+print("modi" not in enames)     # true
+print("Sonai" not in enames)    #false
